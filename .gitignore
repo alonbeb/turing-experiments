@@ -7,12 +7,9 @@ data/prompt-fills
 data/simulation_results
 data/simulation_results_processed
 
-# VSCode
-.vscode
+# jetbrains
+.idea
 
 # Python
 *.ipynb_checkpoints
 *__pycache__
-
-# MacOS
-*.DS_Store
