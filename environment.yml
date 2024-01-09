@@ -1,6 +1,8 @@
 name: turing-experiments
 channels:
   - conda-forge
+  - defaults
+  - conda-forge/label/broken
 dependencies:
   - aiohttp
   - aiosignal
@@ -60,10 +62,8 @@ dependencies:
   - libbrotlidec
   - libbrotlienc
   - libcblas
-  - libcxx
   - libdeflate
   - libffi
-  - libgfortran
   - libgfortran5
   - liblapack
   - libopenblas
@@ -159,6 +159,8 @@ dependencies:
   - zeromq
   - zipp
   - zstd
+  - libcxx
+  - libgfortran
   - pip:
       - ncurses
       - readline

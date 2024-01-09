@@ -1,11 +1,5 @@
-# api key
-openai_api_key.txt
-openai_organization.txt
-
 # data
-data/prompt-fills
-data/simulation_results
-data/simulation_results_processed
+data
 
 # jetbrains
 .idea
